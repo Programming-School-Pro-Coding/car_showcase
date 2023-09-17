@@ -22,7 +22,7 @@ const CustomFilter = ({ title, options }: CustomFilterProps) => {
         value={selected}
         onChange={(e) => {
           setSelected(e); // Update the selected option in state
-          handleUpdateParams(e); // Update the URL search parameters and navigate to the new URL
+          handleUpdatedParams(e); // Update the URL search parameters and navigate to the new URL
         }}
       >
         <div className="relative w-fit z-10">
